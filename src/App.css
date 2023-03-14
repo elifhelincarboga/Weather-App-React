@@ -1,0 +1,61 @@
+*{
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(20, 31, 87);
+  color: #fff;
+}
+.dropdown {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.searchBox input {
+  font-size: 12px;
+  color: black;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+}
+.searchBox button {
+  font-size: 12px;
+  border: 1px solid black;
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  border-radius: 30px;
+  width: 100px;
+  transition-duration:0.5s;
+}
+.searchBox button:hover {
+  color: #fff;
+  background-color: rgb(0, 115, 255);
+  border: 2px solid black;
+}
+.cards {
+  display: flex;
+}
+.card {
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  border-radius: 40px;
+  width: 200px;
+}
+.card h2,p {
+  color: #fff;
+  font-size: 15px;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+}
+.footer {
+  margin-top: 60px;
+}
+.container {
+  margin-top: 100px;
+}
